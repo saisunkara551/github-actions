@@ -8,6 +8,8 @@ jobs:
       - name: Greeting
         run: echo "Hello Everyone"
       - name: hostname
-        run: echo $hostname
+        run: |
+          hostname="hotsname"
+          echo $hostname
   
   
