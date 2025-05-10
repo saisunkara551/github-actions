@@ -1,0 +1,13 @@
+name: FIRST WORKFLOW
+on: 
+  workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Greeting
+        run: echo "Hello Everyone"
+      - name: hostname
+        run: echo $hostname
+  
+  
